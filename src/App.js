@@ -1,24 +1,41 @@
-import logo from './logo.svg';
+
+import React, { useState } from 'react';
+
 import './App.css';
+import Header from './componentes/header';
+import Formualrio from './componentes/form';
+import Contenido from './componentes/contenido';
+import Ventana from './componentes/ventana';
 
 function App() {
+  const [docu,nuevaDocu] = useState(0)
+  const [nombre,nuevoNombre] = useState("")
+  const [contra_vacia,contra_full] = useState("")
+  const [usuario,usu] = useState(null)
+  const [spinker,cargando] = useState(false)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header titulo ="Formulario "/>
+    
+      <div className="cuerpo">
+        <Formualrio docu ={docu} nuevaDocu={nuevaDocu}
+          nombre={nombre} nuevoNombre={nuevoNombre}
+          contra_vacia={contra_vacia} contra_full={contra_full}   
+          usuario= {usuario} usu = {usu}
+          cargando= {cargando}
+
+
+        />
+
+        <Contenido/>
+      </div>
+
+      {(usuario == null)? null: <Ventana usuario = {usuario} usu={usu} spinker={spinker} cargando={cargando}/> }
+      
+
+    </>
   );
 }
 
