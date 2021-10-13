@@ -33,6 +33,7 @@ fieldset{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: black solid 1px;
 }
 
 input{
@@ -47,6 +48,10 @@ input{
   background-color: hsla(20, 100%, 50%, 0.5);
   padding: 30px;
   border-radius: 10px;
+  width: 50%;
+  box-shadow: 2px 2px 20px 5px black;
+  font-size: 25px;
+  text-align: center;
   
 
 }
@@ -111,4 +116,18 @@ input{
 
 .ventana h3 {
   margin-bottom: 30px;
+}
+
+.formulario button {
+  font-size: 20px;
+}
+
+.formulario input {
+  padding: 5px;
+  
+  background-color: transparent;
+  border-bottom: 3px solid black;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
 }

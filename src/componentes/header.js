@@ -6,6 +6,7 @@ function Header ({titulo}) {
         <>
         <header className="encabezado">
             <h1>{titulo}</h1>
+           
             
         </header>
         

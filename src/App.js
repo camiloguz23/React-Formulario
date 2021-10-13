@@ -1,11 +1,13 @@
 
 import React, { useState } from 'react';
 
+
 import './App.css';
 import Header from './componentes/header';
 import Formualrio from './componentes/form';
 import Contenido from './componentes/contenido';
 import Ventana from './componentes/ventana';
+
 
 function App() {
   const [docu,nuevaDocu] = useState(0)
@@ -29,10 +31,12 @@ function App() {
 
         />
 
-        <Contenido/>
+       {/*  <Contenido/> */}
       </div>
 
       {(usuario == null)? null: <Ventana usuario = {usuario} usu={usu} spinker={spinker} cargando={cargando}/> }
+
+     
       
 
     </>
