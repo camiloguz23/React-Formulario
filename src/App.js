@@ -31,7 +31,7 @@ function App() {
 
         />
 
-       {/*  <Contenido/> */}
+       
       </div>
 
       {(usuario == null)? null: <Ventana usuario = {usuario} usu={usu} spinker={spinker} cargando={cargando}/> }
