@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './componentes/header';
 import Formualrio from './componentes/form';
-import Contenido from './componentes/contenido';
+
 import Ventana from './componentes/ventana';
 
 
