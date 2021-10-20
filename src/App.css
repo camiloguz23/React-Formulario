@@ -38,6 +38,7 @@ fieldset{
 
 input{
   margin-bottom: 20px;
+  
 }
 
 .formulario{
@@ -130,4 +131,25 @@ input{
   border-top: transparent;
   border-left: transparent;
   border-right: transparent;
+}
+
+@media screen and (max-width:400px) {
+
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: hsla(20, 100%, 50%, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 2px 2px 20px 5px black;
+    font-size: 25px;
+    text-align: center;
+    
+  }
+
+
+  
 }
