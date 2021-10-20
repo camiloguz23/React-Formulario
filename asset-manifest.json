@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactFormulario/static/css/main.ef644f3e.chunk.css",
+    "main.css": "/ReactFormulario/static/css/main.1b9e2883.chunk.css",
     "main.js": "/ReactFormulario/static/js/main.af0f51f5.chunk.js",
     "main.js.map": "/ReactFormulario/static/js/main.af0f51f5.chunk.js.map",
     "runtime-main.js": "/ReactFormulario/static/js/runtime-main.1bcac05a.js",
@@ -8,14 +8,14 @@
     "static/js/2.0c0b5455.chunk.js": "/ReactFormulario/static/js/2.0c0b5455.chunk.js",
     "static/js/2.0c0b5455.chunk.js.map": "/ReactFormulario/static/js/2.0c0b5455.chunk.js.map",
     "index.html": "/ReactFormulario/index.html",
-    "static/css/main.ef644f3e.chunk.css.map": "/ReactFormulario/static/css/main.ef644f3e.chunk.css.map",
+    "static/css/main.1b9e2883.chunk.css.map": "/ReactFormulario/static/css/main.1b9e2883.chunk.css.map",
     "static/js/2.0c0b5455.chunk.js.LICENSE.txt": "/ReactFormulario/static/js/2.0c0b5455.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ReactFormulario/static/media/formularios-contacto-wordpress.0f8c61d7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1bcac05a.js",
     "static/js/2.0c0b5455.chunk.js",
-    "static/css/main.ef644f3e.chunk.css",
+    "static/css/main.1b9e2883.chunk.css",
     "static/js/main.af0f51f5.chunk.js"
   ]
 }
